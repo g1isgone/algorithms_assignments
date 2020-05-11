@@ -49,6 +49,7 @@ def karatsuba(num1, num2):
  
   return ac * 10**(2*half_num_digits) + bd + sum_ad_bc * 10**(half_num_digits)
 
+
 def main(): 
   user_inputs = sys.argv 
   
